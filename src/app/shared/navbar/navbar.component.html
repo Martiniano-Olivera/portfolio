@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid d-flex">
+      <a class="navbar-brand" [routerLink]="['/home']">Martiniano Olivera </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex justify-content-between">
+
+          <li class="nav-item">
+            <a [routerLink]="['/home']" routerLinkActive="active"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/about-me']" routerLinkActive="active"> About Me </a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/projects']" routerLinkActive="active"> Projects </a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/contact']" routerLinkActive="active"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
